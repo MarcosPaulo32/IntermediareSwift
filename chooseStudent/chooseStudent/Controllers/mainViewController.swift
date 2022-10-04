@@ -26,7 +26,10 @@ class mainViewController: UIViewController {
     }
     
     @IBAction func btShowListStudent(_ sender: Any) {
-    }
+        let LIST_STUDENTS: listStudentsViewController = MAIN.instantiateViewController(withIdentifier: "listStudents") as! listStudentsViewController
+        LIST_STUDENTS.manager = manager
+        self.present(LIST_STUDENTS, animated: true, completion: nil)
+        performSegue(withIdentifier: "segueListStudents", sender: nil)    }
     
     @IBAction func ReturnMainView(voltar: UIStoryboardSegue){}
 }

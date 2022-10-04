@@ -1,7 +1,7 @@
 //
 //  managerStudent.swift
 //  chooseStudent
-//
+//niggafck
 //  Created by ICMMAC04-3F86 on 28/09/22.
 //
 
@@ -13,5 +13,10 @@ class managerStudent{
     func addNewStudent(nome: String, serie: String, nota: String){
         escola.append(Student(nomeStudent: nome, serieStudent: serie, notaStudent: nota))
         print(escola)
+    }
+    
+    func listStudent(index: Int) -> Student {
+        return escola[index]
+                                 
     }
 }
