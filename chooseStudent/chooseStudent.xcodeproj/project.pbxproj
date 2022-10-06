@@ -22,7 +22,7 @@
 /* Begin PBXFileReference section */
 		9BB427C628E4F3B2004C9D8C /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
 		9BB427C828E4F3FF004C9D8C /* addStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addStudentViewController.swift; sourceTree = "<group>"; };
-		9BB427CA28E4F42D004C9D8C /* listStudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listStudentsViewController.swift; sourceTree = "<group>"; };
+		9BB427CA28E4F42D004C9D8C /* listStudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listStudentsViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		9BB427CE28E4F628004C9D8C /* modelStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelStudent.swift; sourceTree = "<group>"; };
 		9BB427D028E4F817004C9D8C /* managerStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = managerStudent.swift; sourceTree = "<group>"; };
 		C4B7FAFA28E37BCA00623383 /* chooseStudent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chooseStudent.app; sourceTree = BUILT_PRODUCTS_DIR; };

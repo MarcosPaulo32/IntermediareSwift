@@ -14,4 +14,7 @@ func addBankClient(nome: String, Débito: String, Crédito: String){
     banco.append(Bank(nomebanco: nome, SaldoDebito: Débito, SaldoCredito: Crédito))
     print(banco)
 }
+    func listclient(index: Int) -> Bank{
+    return banco[index]
+}
 }

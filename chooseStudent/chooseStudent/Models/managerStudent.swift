@@ -17,6 +17,6 @@ class managerStudent{
     
     func listStudent(index: Int) -> Student {
         return escola[index]
-                                 
+                            
     }
 }

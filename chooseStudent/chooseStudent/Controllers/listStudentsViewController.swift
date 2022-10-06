@@ -11,7 +11,6 @@ class listStudentsViewController: UIViewController {
     @IBOutlet weak var nome: UILabel!
     @IBOutlet weak var serie: UILabel!
     @IBOutlet weak var nota: UILabel!
-    
     @IBOutlet weak var proximo: UIButton!
     @IBOutlet weak var beck: UIButton!
     
@@ -25,19 +24,13 @@ class listStudentsViewController: UIViewController {
         beck.isHidden = true
         proximo.isHidden = true
         
+
         if manager.escola.count > 0{
             nome.text = manager.escola[0].nomeStudent
             serie.text = manager.escola[0].serieStudent
             nota.text = manager.escola[0].notaStudent
-        }
-
-        if manager.escola.count > 1 {
             proximo.isHidden = false
-            beck.isHidden = false
-        }else if manager.escola.count < 0{
-            beck.isHidden = true
         }
-        
     }
     @IBAction func nekist(_ sender: Any) {
     cont = cont + 1
@@ -45,9 +38,10 @@ class listStudentsViewController: UIViewController {
         nome.text = student.nomeStudent
         serie.text = student.serieStudent
         nota.text = student.notaStudent
+        beck.isHidden = false
         
         if (cont+1) == manager.escola.count{
-            proximo.isHidden = false
+            proximo.isHidden = true
         }
     }
     @IBAction func voltar(_ sender: Any) {
@@ -56,6 +50,11 @@ class listStudentsViewController: UIViewController {
         nome.text = student.nomeStudent
         serie.text = student.serieStudent
         nota.text = student.notaStudent
+        proximo.isHidden = false
+        
+        if cont < 1 {
+            beck.isHidden = true
+        }
         }
     }
     
