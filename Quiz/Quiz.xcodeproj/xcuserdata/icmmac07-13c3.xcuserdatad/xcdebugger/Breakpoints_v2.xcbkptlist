@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C70C9757-0930-49F9-986D-3DF0E40DD807"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1FFF8C3-446B-45BA-8044-76CC1C3FAD6B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Quiz/Models/managerQuiz.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "managerQuiz"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E961F0DC-D2D6-4E82-B4D3-270F739F258A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Quiz/Controllers/quizViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "quizViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E961F0DC-D2D6-4E82-B4D3-270F739F258A - 63e74bbcce06b80b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Quiz.quizViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Quiz.quizViewController"
+                  moduleName = "Quiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/icmmac07-13c3/Documents/Marcos/Quiz/Quiz/Controllers/quizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "E961F0DC-D2D6-4E82-B4D3-270F739F258A - 4a35a934e443c2d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Quiz.quizViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Quiz.quizViewController"
+                  moduleName = "Quiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/icmmac07-13c3/Documents/Marcos/Quiz/Quiz/Controllers/quizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "E961F0DC-D2D6-4E82-B4D3-270F739F258A - e05a0ad7bd5aafd0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Quiz.quizViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Quiz.quizViewController&gt;"
+                  moduleName = "Quiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/icmmac07-13c3/Documents/Marcos/Quiz/Quiz/Controllers/quizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "E961F0DC-D2D6-4E82-B4D3-270F739F258A - 7a61c1d15c3ce2ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Quiz.quizViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Quiz.quizViewController&gt;"
+                  moduleName = "Quiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/icmmac07-13c3/Documents/Marcos/Quiz/Quiz/Controllers/quizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "E961F0DC-D2D6-4E82-B4D3-270F739F258A - 7b012620db0606be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Quiz.quizViewController.__deallocating_deinit"
+                  moduleName = "Quiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/icmmac07-13c3/Documents/Marcos/Quiz/Quiz/Controllers/quizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

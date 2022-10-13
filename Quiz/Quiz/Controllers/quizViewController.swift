@@ -8,7 +8,8 @@
 import UIKit
 
 class quizViewController: UIViewController {
-    @IBOutlet weak var question: UILabel!
+    
+    @IBOutlet weak var questão: UILabel!
     
     @IBOutlet var opcoes: [UIButton]!
     override func viewDidLoad() {
@@ -16,9 +17,9 @@ class quizViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    @IBAction func opcoes(_ sender: UIButton) {
+    @IBAction func opcoes2(_ sender: UIButton) {
         let index = opcoes.firstIndex(of: sender) ?? 0
-        question.text = "\(index)"
+        questão.text = "\(index)"
     }
     
 }
