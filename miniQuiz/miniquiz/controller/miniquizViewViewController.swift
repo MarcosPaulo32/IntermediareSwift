@@ -31,7 +31,6 @@ class miniquizViewViewController: UIViewController {
         if manager.checkAnswer(index: index){
             upgradeQuiz()
         } else{
-            sender.setTitleColor(.red, for: .normal)
             upgradeQuiz()
         }
     
@@ -52,5 +51,7 @@ class miniquizViewViewController: UIViewController {
         let RESULT = segue.destination as! resultadominiquizViewController
         RESULT.numberCorrect = manager.numberCorrect
         RESULT.numberWrong = manager.numberWrong
+        RESULT.pontosCorrect = manager.pontosCorrect
+        RESULT.pontosWrong = manager.pontosWrong
 }
 }

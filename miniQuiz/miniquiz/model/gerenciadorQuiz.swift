@@ -29,6 +29,8 @@ class managerQuiz {
     var contador = -1
     var numberCorrect = 0
     var numberWrong = 0
+    var pontosCorrect = 0
+    var pontosWrong = 0
     func reloadQuiz() -> Quiz {
         contador = contador + 1
         return quizes[contador]
@@ -39,9 +41,11 @@ class managerQuiz {
     func checkAnswer(index:Int)->Bool{
         if quizes[contador].respostaCorrect ==  index{
             numberCorrect = numberCorrect+1
+            pontosCorrect = pontosCorrect+5
             return true
     } else {
         numberWrong = numberWrong+1
+        pontosWrong = pontosWrong+1
         return false
     }
     }
