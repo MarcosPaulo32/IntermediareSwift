@@ -15,8 +15,9 @@ struct TetrisGameBoardView: View{
         GeometryReader { (geometry: GeometryProxy) in
             return self.createBoard(boundingRect: geometry.size)
         }
-    }
-    
+        .gesture(jogoTetris.getMoveGesture())
+        .gesture(jogoTetris.getRotateGesture())
+}
     func createBoard(boundingRect: CGSize) -> some View{
         let columns = self.jogoTetris.numColumns
         let rows = self.jogoTetris.numRows
@@ -35,4 +36,10 @@ struct TetrisGameBoardView: View{
             }
         }
     }
+}
+
+struct TetrisGameView_Previews: PreviewProvider{
+static var previews: some View{
+    TetrisView()
+}
 }
