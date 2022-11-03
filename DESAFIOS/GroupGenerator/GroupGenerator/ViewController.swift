@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Tetris
+//  GroupGenerator
 //
-//  Created by ICMMAC07-13C3 on 21/10/22.
+//  Created by ICMMAC06-7A13 on 25/10/22.
 //
 
 import UIKit
