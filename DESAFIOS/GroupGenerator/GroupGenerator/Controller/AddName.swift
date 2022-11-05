@@ -61,16 +61,16 @@ class AddName: UIViewController{
         }
     }
     @IBAction func btExcluir(_ sender: Any) {
-        manager.excluirGrupo(inde: index)
+        manager.excluirGrupo(inde: cont)
         print(index)
         print(manager.Quantidade())
         
-        if index < manager.Quantidade(){
+        if cont < manager.Quantidade(){
             reloadParticipant()
         }
     }
     func reloadParticipant(){
-        Grupo = manager.ListParticipant(index: index)
+        Grupo = manager.ListParticipant(index: cont)
         lbNome.text = "\(Grupo.name)"
     }
     
