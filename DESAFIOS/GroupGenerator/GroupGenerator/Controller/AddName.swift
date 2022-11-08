@@ -39,6 +39,7 @@ class AddName: UIViewController{
         manager.CreateGroup(nome: tfNome.text!)
         tfNome.text = ""
         lbNome.text = manager.group[0].name
+
     }
     @IBAction func Next(_ sender: Any) {
         cont = cont + 1
