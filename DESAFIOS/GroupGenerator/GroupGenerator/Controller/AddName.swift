@@ -23,23 +23,25 @@ class AddName: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    
+    btIr.isHidden = true
+    btVoltar.isHidden = true
+    
+    if manager.group.count > 0{
+        tfNome.text = manager.group[0].name
+        btIr.isHidden = false
+    }
         if manager.Quantidade() > 0{
             reloadParticipant()
         }
         
-        btIr.isHidden = true
-        btVoltar.isHidden = true
         
-        if manager.group.count > 0{
-            btIr.isHidden = true
-        }
     }
     @IBAction func btAdd(_ sender: Any) {
         manager.CreateGroup(nome: tfNome.text!)
         tfNome.text = ""
-        lbNome.text = manager.group[0].name
-
+        lbNome.text = manager.group[cont].name
+        reloadParticipant()
     }
     @IBAction func Next(_ sender: Any) {
         cont = cont + 1

@@ -39,24 +39,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQn-h7-2JR">
-                                <rect key="frame" x="452" y="184" width="21" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" image="arrowshape.right.fill" catalog="system"/>
-                                <connections>
-                                    <action selector="Next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VB0-ac-GhS"/>
-                                </connections>
-                            </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kmd-4M-SQd">
-                                <rect key="frame" x="201" y="184" width="21" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" image="arrowshape.left.fill" catalog="system"/>
-                                <connections>
-                                    <action selector="Return:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qd1-la-4us"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLp-nM-uu5">
                                 <rect key="frame" x="289" y="94" width="96" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -95,6 +77,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FXE-cw-xbv">
+                                <rect key="frame" x="163" y="185" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="arrowshape.left.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Return:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fte-Li-Dsh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBH-6I-oNq">
+                                <rect key="frame" x="511" y="185" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="arrowshape.right.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yWg-tJ-7jP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
@@ -102,9 +102,9 @@
                     <navigationItem key="navigationItem" id="R3d-Cm-4sS"/>
                     <connections>
                         <outlet property="btAdd" destination="NLp-nM-uu5" id="5Ss-2y-4b9"/>
-                        <outlet property="btIr" destination="iQn-h7-2JR" id="LIf-tG-n01"/>
+                        <outlet property="btIr" destination="HBH-6I-oNq" id="DyY-bS-qdj"/>
                         <outlet property="btRemove" destination="M7h-o2-Mrt" id="7PQ-cD-4pW"/>
-                        <outlet property="btVoltar" destination="Kmd-4M-SQd" id="JId-Gj-zQr"/>
+                        <outlet property="btVoltar" destination="FXE-cw-xbv" id="LFO-q3-V8h"/>
                         <outlet property="lbNome" destination="baz-d6-AY5" id="ysF-QE-xaM"/>
                         <outlet property="tfNome" destination="U1q-2M-Yvv" id="apK-0Y-qRl"/>
                     </connections>
